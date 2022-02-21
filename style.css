@@ -12,6 +12,7 @@ body {
   background-position-x: calc(50vw + 16px);
 }
 
+
 .container {
   max-width: 1408px;
   margin: 0 auto;
@@ -22,6 +23,7 @@ body {
   text-align: right;
   font-weight: bold;
 }
+
 
 .page-header {
   margin: 0 0 140px;
@@ -49,6 +51,7 @@ body {
   opacity: 0.6;
 }
 
+
 .header-email {
   padding-left: 30px;
   background-image: url("img/icon-email-header.svg");
@@ -58,6 +61,7 @@ body {
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
 }
+
 
 .hero-image {
   position: relative;
@@ -72,9 +76,10 @@ body {
   background-position: top left;
 }
 
+
 .heading {
   margin: 0 0 40px;
-  padding-left: 116px;
+  padding-left: 230px;
   width: 928px;
   font-size: 104px;
   line-height: 120px;
@@ -83,20 +88,23 @@ body {
   color: #8da2ed;
 }
 
+
 .hero-image p {
   margin: 0;
   padding-left: 128px;
   padding-bottom: 16px;
   font-size: 32px;
-  line-height: 48px;
+  line-height: 20px;
 }
+
 
 .intro {
   margin: 0 0 160px;
-  padding-top: 240px;
+  padding-top: 50px;
   padding-bottom: 80px;
   background-color: #fafbfd;
 }
+
 
 .subheading {
   margin: 0 0 56px;
@@ -106,6 +114,7 @@ body {
   color: #8da2ed;
 }
 
+
 .intro .container {
   position: relative;
 }
@@ -114,6 +123,7 @@ body {
   position: absolute;
   top: -320px;
   left: 48px;
+  padding-top: 220px;
   font-size: 16px;
   line-height: 32px;
   color: #222222;
@@ -122,13 +132,14 @@ body {
 .intro .subheading::before {
   position: absolute;
   content: "";
-  top: 4px;
+  top: 220px;
   left: -32px;
   width: 16px;
   height: 28px;
   background-image: url("img/icon-scroll.svg");
   background-repeat: no-repeat;
 }
+
 
 .user-image {
   margin: 0 0 32px;
@@ -143,6 +154,7 @@ body {
   margin-left: 16px;
   object-fit: cover;
 }
+
 
 .intro .container div {
   position: relative;
@@ -191,16 +203,20 @@ body {
   text-transform: uppercase;
 }
 
+
 .my {
   padding: 5px;
   text-align: center;
 }
 
+
 .use {
   text-align: center;
   margin: 10px;
-  padding: 30px;
+  padding: 35px;
+  padding-bottom: 10px;
 }
+
 
 .intro p {
   margin: 0;
@@ -217,6 +233,7 @@ body {
 .intro .container .skills {
   min-height: unset;
 }
+
 
 .skills::before {
   top: 0;
@@ -268,6 +285,7 @@ body {
   background-image: url("img/icon-css.svg");
 }
 
+
 .level {
   position: absolute;
   top: 32px;
@@ -279,6 +297,7 @@ body {
   background-color: #ffffff;
   border: 1px solid #dee5fb;
 }
+
 
 .skill-html + .level {
   left: 82px;
@@ -296,6 +315,7 @@ body {
   background-image: url("img/progress-pattern.svg");
 }
 
+
 .portfolio {
   margin: 0 0 208px;
 }
@@ -303,6 +323,7 @@ body {
 .portfolio .subheading {
   margin-bottom: 80px;
 }
+
 
 .projects {
   display: flex;
@@ -314,6 +335,7 @@ body {
 .portfolio .projects li:nth-child(2n) {
   margin-right: 0;
 }
+
 
 .projects li {
   display: flex;
@@ -387,6 +409,7 @@ body {
   overflow: hidden;
 }
 
+
 .button {
   position: relative;
   margin: auto 72px -10px;
@@ -429,6 +452,7 @@ body {
   filter: brightness(100);
 }
 
+
 .page-footer {
   padding: 40px 0;
   background-color: #8da2ed;
@@ -454,6 +478,7 @@ body {
 .page-footer a:active {
   opacity: 0.6;
 }
+
 
 .footer-email {
   padding-left: 30px;
