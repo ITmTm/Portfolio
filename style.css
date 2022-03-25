@@ -37,10 +37,12 @@ body {
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
+  transition: 0.6s linear;
 }
 
 .page-header a:focus,
 .page-header a:hover {
+  color: #5e7ce9;
   border-bottom: 1px solid #8da2ed;
   filter: hue-rotate(50deg);
 }
@@ -125,6 +127,7 @@ body {
 
 a {
   text-decoration: none;
+  transition: 0.4s linear;
 }
 
 
@@ -474,12 +477,14 @@ a:hover {
   background-repeat: no-repeat;
   background-position: left;
   opacity: 0.8;
+  transition: 0.5s linear;
 }
 
 .page-footer a:focus,
 .page-footer a:hover {
   opacity: 1;
-  border-bottom: 1px solid #ffffff;
+  color: #c1d2f1;
+  border-bottom: 1px solid #dbc4c4;
 }
 
 .page-footer a:active {
