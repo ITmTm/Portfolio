@@ -1,0 +1,29 @@
+.contacts {
+  background-color: #f4faff;
+  padding: 120px 0 90px 0;
+  &__text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  &__social {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  &__link {
+    cursor: pointer;
+    margin-right: 35px;
+
+    img {
+      max-width: 45px;
+      max-height: 45px;
+      &:hover {
+        transform: scale(1.08);
+        filter: saturate(300%);
+      }
+    }
+  }
+}

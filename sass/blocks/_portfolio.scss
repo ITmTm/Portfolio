@@ -1,0 +1,24 @@
+.portfolio {
+  padding-top: 120px;
+  background-color: #f4faff;
+  &__wrapper {
+    margin-top: 60px;
+    display: grid;
+    grid-template: repeat(2, 280px) / repeat(4, 280px);
+    grid-auto-rows: 280px;
+    gap: 5px;
+  }
+  &__item {
+    cursor: pointer;
+    img {
+      transition: all 0.5s ease;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      &:hover {
+        transform: scale(1.05);
+        filter: blur(2px);
+      }
+    }
+  }
+}
