@@ -4,7 +4,9 @@
 
 &bull; HTML5;
 <br>
-&bull; SCSS;
+&bull; CSS3;
+<br>
+&bull; Sass(SCSS);
 <br>
 &bull; JS;
 <br>
